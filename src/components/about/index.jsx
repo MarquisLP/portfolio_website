@@ -22,14 +22,13 @@ const About = () => {
           <AboutSection>
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
-              <SubTitle> Front End Developer</SubTitle>
+              <SubTitle>Web & Mobile Developer | Writer</SubTitle>
             </div> 
             <div>
-              <Title> Hello, I’m AbdAli </Title>
-              <Text> I'm a digital Front End Developer hailing from <b className="text-primary lined-link">North Africa</b> living in Casablanca. </Text>
-              <Text> I love working with modern technologies, building and designing awesome projects. I prefer minimalistic & clean designs with strong user experience.</Text>
-              <Text> behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
-              </Text>
+              <Title> Hey there! </Title>
+              <Text>Have you ever loved something so much that you wanted to take it apart, analyze it, and then rebuild it, piece-by-piece, into something entirely new — like some sort of <b className="text-primary lined-link">alchemy?</b></Text>
+              <Text>That alchemist is me. I live for learning about the ins-and-outs of crafting things, whether in software, prose, artistry, or any other form of media. To create is my purpose, and to enhance is my philosophy.</Text>
+              <Text>I cannot promise magic, nor can I guarantee sorcery. Still, if a productive mind and some degree of expertise are of interest to your goals, feel free to loose your carrier pigeons to one of the contact methods listed on this page. </Text>
               <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
             </div>
           </AboutSection>
