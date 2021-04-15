@@ -65,7 +65,7 @@ export const MediaLink = styled.a`
 	padding: 1rem 0rem;
 	padding-bottom: .5rem;
 	line-height: 1;
-	font-size: 1rem;
+	font-size: 2rem;
   text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
 	color: ${variables.primary};
