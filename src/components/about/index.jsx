@@ -23,6 +23,7 @@ const About = () => {
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
               <SubTitle>Web & Mobile Developer | Writer</SubTitle>
+              <SubTitle>Co-Founder of <a href="https://averistudios.com" target="_blank" className="text-primary lined-link">Averi Studios</a></SubTitle>
             </div> 
             <div>
               <Title> Hey there! </Title>
