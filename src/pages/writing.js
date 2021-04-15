@@ -5,7 +5,7 @@ import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
 import {Tag, ContainerLayout, WorkPost, Category, Intro, SubTitle, Title, Text} from "../components/common"
 
-const WorkIndex = ({ data }) => {
+const WritingIndex = ({ data }) => {
   const works = data.allMarkdownRemark.edges
 
   return (
@@ -16,7 +16,7 @@ const WorkIndex = ({ data }) => {
           <ContainerLayout>
 
             <SubTitle className="text-dark">
-              Selected Work
+              Writing Portfolio
             </SubTitle>
 
             <ContainerLayout className="wrapper">
@@ -27,7 +27,7 @@ const WorkIndex = ({ data }) => {
                     <div className="media">
                       <div className="image-wrapper">
                         <Link to={node.fields.slug}>
-                          <Img fluid={node.frontmatter.image.childImageSharp.fluid} title="work title" />
+                          <Img fluid={node.frontmatter.image.childImageSharp.fluid} title="portfolio item title" />
                         </Link>
                       </div>
                     </div>
@@ -60,7 +60,7 @@ const WorkIndex = ({ data }) => {
   )
 }
 
-export default WorkIndex
+export default WritingIndex
 
 export const pageQuery = graphql`
   query {
