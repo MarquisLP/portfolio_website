@@ -11,12 +11,12 @@ const WritingIndex = ({ data }) => {
   return (
     <>
       <Layout> 
-        <SEO title="Showcases" />
+        <SEO title="Writing" />
         <Intro>
           <ContainerLayout>
 
             <SubTitle className="text-dark">
-              Writing Portfolio
+              Writing
             </SubTitle>
 
             <ContainerLayout className="wrapper">
