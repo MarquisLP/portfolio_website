@@ -23,13 +23,15 @@ const portfolioWork = ({data, pageContext, location}) => {
           <div>
             <ArticlePost>
               <header>
-                <Title>
+                <Title style={{textIndent: 0, textAlign: 'center'}}>
                   {work.frontmatter.title}
                 </Title>
-                <SmallText> 
-                  <Calendar className="align-middle text-primary" width="18" height="18" /> 
-                  <span className="align-middle"> date published : {work.frontmatter.date} </span>
-                </SmallText>
+                <center>
+                    <SmallText>
+                        <Calendar className="align-middle text-primary" width="18" height="18" />
+                        <span className="align-middle"> date published : {work.frontmatter.date} </span>
+                    </SmallText>
+                </center>
               </header>
               
               <ArticleBody dangerouslySetInnerHTML={{ __html: work.html }} />
