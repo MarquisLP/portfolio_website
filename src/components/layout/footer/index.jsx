@@ -25,15 +25,15 @@ const Footer = () => {
 						</div>
 					</FooterBody>
 					<div className="box">
+                        <a className="text-primary lined-link" href="https://github.com/MarquisLP/portfolio_website">Source code for this website</a>
+					</div>
+					<div className="box">
 						<CopyRight className="text-dark">
 							© 
 							<span> {new Date().getFullYear()} {data.SiteAuthor} | Built using {` `}
-								<a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
-          		</span> 
+								<a className="text-primary lined-link" href="https://www.gatsbyjs.org">Gatsby</a>{" "}
+                            </span>
 							| Template by Abdelali Dahir </CopyRight>
-					</div>
-					<div className="box">
-                        <a className="text-primary lined-link" href="https://github.com/MarquisLP/portfolio_website">Source code for this website</a>
 					</div>
 				</ContainerLayout>
 			</FooterStyle>
