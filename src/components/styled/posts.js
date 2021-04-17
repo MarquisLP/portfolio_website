@@ -7,7 +7,6 @@ export const Intro = styled.div`
 
 export const Title = styled.h1`
   font-size: 2rem;
-  text-transform: capitalize;
   font-family: "GT-Walsheim-Pro-Bold";
 `
 
