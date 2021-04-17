@@ -25,7 +25,7 @@ const Footer = () => {
 						</div>
 					</FooterBody>
 					<div className="box">
-                        <a className="text-primary lined-link" href="https://github.com/MarquisLP/portfolio_website">Source code for this website</a>
+                        <a className="text-primary lined-link" href="https://github.com/MarquisLP/portfolio_website" target="_blank">Source code for this website</a>
 					</div>
 					<div className="box">
 						<CopyRight className="text-dark">
