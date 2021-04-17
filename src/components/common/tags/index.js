@@ -3,6 +3,7 @@ import variables from '../../../data/variables';
 
 export const Tag = styled.a`
   color: #a9aaab;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: .05em;
   font-size: .8em;
