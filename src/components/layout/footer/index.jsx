@@ -27,10 +27,10 @@ const Footer = () => {
 					<div className="box">
 						<CopyRight className="text-dark">
 							© 
-							<span> {new Date().getFullYear()}, Built with {` `} 
+							<span> {new Date().getFullYear()} {data.SiteAuthor} | Built using {` `}
 								<a href="https://www.gatsbyjs.org">Gatsby</a>{" "}
           		</span> 
-							Copyright 2020 by {data.SiteAuthor} | Template by Abdelali Dahir </CopyRight>
+							| Template by Abdelali Dahir </CopyRight>
 					</div>
 				</ContainerLayout>
 			</FooterStyle>
