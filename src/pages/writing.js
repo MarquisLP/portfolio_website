@@ -27,7 +27,7 @@ const WritingIndex = ({ data }) => {
                     <div className="media">
                       <div className="image-wrapper">
                         <Link to={node.fields.slug}>
-                          <Img fluid={node.frontmatter.image.childImageSharp.fluid} title="portfolio item title" />
+                          <Img fluid={node.frontmatter.image.childImageSharp.fluid} title={node.frontmatter.title} />
                         </Link>
                       </div>
                     </div>
