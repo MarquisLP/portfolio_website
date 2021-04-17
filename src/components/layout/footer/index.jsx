@@ -32,6 +32,9 @@ const Footer = () => {
           		</span> 
 							| Template by Abdelali Dahir </CopyRight>
 					</div>
+					<div className="box">
+                        <a className="text-primary lined-link" href="https://github.com/MarquisLP/portfolio_website">Source code for this website</a>
+					</div>
 				</ContainerLayout>
 			</FooterStyle>
 		</>
