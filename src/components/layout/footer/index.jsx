@@ -1,10 +1,26 @@
 import React from 'react';
 import socialMedia from "../../../data/socialMedia.json";
 import data from "./../../../data/data";
+import variables from '../../../data/variables';
 import { FooterStyle, FooterBody, CopyRight, MediaLink, FooterSocialMedia } from './style'
 import {ContainerLayout, ButtonDefault} from '../../common'
+import { FiGithub } from "@react-icons/all-files/fi/FiGithub"
+import { FiLinkedin } from "@react-icons/all-files/fi/FiLinkedin"
 
 const Footer = () => {
+    const iconStyle= {
+        fontSize: '2rem',
+        color: variables.primary,
+        paddingTop: 3,
+        marginRight: 5,
+        verticalAlign: 'center'
+    }
+
+    const icons = {
+        github: <FiGithub style={iconStyle} />,
+        linkedin: <FiLinkedin style={iconStyle} />
+    }
+
 	return (
 		<>
 			<FooterStyle>
@@ -14,6 +30,7 @@ const Footer = () => {
 							{socialMedia.map(({ id, name, url }) => (
 								<li key={id}> 
 									<MediaLink className="lined-link" href={url} target="_blank" rel="noopener noreferrer" aria-label={`follow us on ${name}`}>
+                                        {icons[name] || ''}
 										{name}
 									</MediaLink> 
 								</li>
