@@ -1,7 +1,7 @@
 import React from 'react';
 import socialMedia from "../../../data/socialMedia.json";
 import data from "./../../../data/data";
-import { FooterStyle, FooterBody, SubRight, CopyRight, MediaLink, FooterSocialMedia } from './style'
+import { FooterStyle, FooterBody, CopyRight, MediaLink, FooterSocialMedia } from './style'
 import {ContainerLayout, ButtonDefault} from '../../common'
 
 const Footer = () => {

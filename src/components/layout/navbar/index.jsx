@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import { User, Briefcase, Feather, Smile } from 'react-feather'
+import { User, Briefcase, Smile } from 'react-feather'
 
 import {NavbarElement, NavbarList, NavbarLogo} from './style'
 
