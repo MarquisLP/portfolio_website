@@ -23,14 +23,14 @@ const About = () => {
             <div>
               <Avatar fluid={data.placeholderImage.childImageSharp.fluid} alt="user photo" />
               <SubTitle>Web & Mobile Developer | Writer</SubTitle>
-              <SubTitle>Co-Founder of <a href="https://averistudios.com" target="_blank" className="text-primary lined-link">Averi Studios</a></SubTitle>
+              <SubTitle>Co-Founder of <a href="https://averistudios.com" target="_blank" rel="noreferrer" className="text-primary lined-link">Averi Studios</a></SubTitle>
             </div> 
             <div>
               <Title> Hey there! </Title>
               <Text>Have you ever loved something so much that you wanted to take it apart, analyze it, and then rebuild it, piece-by-piece, into something entirely new — like some sort of <b className="text-primary lined-link">alchemy?</b></Text>
               <Text>That alchemist is me. I live for learning about the ins-and-outs of crafting things, whether in software, prose, artistry, or any other form of media. To create is my purpose, and to enhance is my philosophy.</Text>
               <Text>I cannot promise magic, nor can I guarantee sorcery. Still, if a productive mind and some degree of expertise are of interest to your goals, feel free to loose your carrier pigeons to one of the contact methods listed on this page. </Text>
-              <ResumeButton href="resume.pdf" target="_blank"> Download resume </ResumeButton>
+              <ResumeButton href="resume.pdf" target="_blank" rel="noreferrer"> Download resume </ResumeButton>
             </div>
           </AboutSection>
         </ContainerLayout>
