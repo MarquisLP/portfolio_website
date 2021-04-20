@@ -7,7 +7,8 @@ export const Intro = styled.div`
 
 export const Title = styled.h1`
   font-size: 2rem;
-  font-family: "GT-Walsheim-Pro-Bold";
+  font-family: "Georgia";
+  font-weight: 600;
 `
 
 export const ArticlePost = styled.article`
@@ -24,7 +25,7 @@ export const ArticlePost = styled.article`
 export const SmallText = styled.small`
     font-size: .89rem;
     padding-right: 10px;
-    font-family: "GT-Walsheim-Pro-Regular";
+    font-family: "Georgia";
     > span {
       padding-left: 5px;
     }
@@ -32,8 +33,11 @@ export const SmallText = styled.small`
 export const ArticleBody = styled.div `
   margin-top: 5rem;
   p {
-    font-size: 1.5rem;
-    font-family: "GT-Walsheim-Pro-Medium";
+    font-size: 1.4rem;
+    font-family: Georgia;
+    max-width: 60ch;
+    opacity: 0.65;
+    text-align: justify;
   }
 `
 
